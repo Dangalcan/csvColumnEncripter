@@ -43,15 +43,5 @@ async function encriptCsv(csvName, columns){
 
 }
 
-// columnsToEncrypt = ['firstname', 'lastname']; 
-//     fs.createReadStream('users.csv')
-//     .pipe(csv.parse({ headers: true }))
-//     .pipe(new EncryptTransform())
-//     .pipe(csv.format({ headers: true }))
-//     .pipe(fs.createWriteStream('encrypted_users.csv'))
-//     .on('finish', () => {
-//         console.log('CSV excripted successfully');
-//     });
-
 
 module.exports = { encriptCsv };
